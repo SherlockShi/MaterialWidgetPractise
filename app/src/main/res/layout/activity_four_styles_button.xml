@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    tools:context="com.sherlockshi.materialwidgetpractise.MainActivity">
+
+    <Button
+        android:layout_width="@dimen/block_button_width"
+        android:layout_height="@dimen/block_button_height"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        android:text="0. Default Button" />
+
+    <Button
+        android:layout_width="@dimen/block_button_width"
+        android:layout_height="@dimen/block_button_height"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button"
+        android:text="1. Widget.AppCompat.Button" />
+
+    <Button
+        android:layout_width="@dimen/block_button_width"
+        android:layout_height="@dimen/block_button_height"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="2. Widget.AppCompat.Button.Colored" />
+
+    <Button
+        android:layout_width="@dimen/block_button_width"
+        android:layout_height="@dimen/block_button_height"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="3. Widget.AppCompat.Button.Borderless" />
+
+    <Button
+        android:layout_width="@dimen/block_button_width"
+        android:layout_height="@dimen/block_button_height"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:text="4. Widget.AppCompat.Button.Borderless.Colored" />
+</LinearLayout>

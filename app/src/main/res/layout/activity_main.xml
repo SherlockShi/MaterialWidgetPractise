@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="com.sherlockshi.materialwidgetpractise.MainActivity">
+
+    <Button
+        style="@style/BlockButton"
+        android:theme="@style/ThemeButton"
+        android:text="@string/four_styles_button"
+        android:onClick="jumpToFourStylesButtonActivity"/>
+
+    <Button
+        style="@style/BlockButton"
+        android:theme="@style/ThemeButton"
+        android:text="@string/various_colors_button"
+        android:onClick="jumpToVariousColorsButtonActivity" />
+
+    <Button
+        style="@style/BlockButton"
+        android:theme="@style/ThemeButton"
+        android:text="@string/checkbox"
+        android:onClick="jumpToCheckBoxActivity" />
+
+    <Button
+        style="@style/BlockButton"
+        android:theme="@style/ThemeButton"
+        android:text="@string/radio_button"
+        android:onClick="jumpToRadioButtonActivity" />
+
+    <Button
+        style="@style/BlockButton"
+        android:theme="@style/ThemeButton"
+        android:text="@string/switch_button"
+        android:onClick="jumpToSwitchActivity" />
+</LinearLayout>

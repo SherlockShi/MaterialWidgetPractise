@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Material Widget Practise</string>
+
+    <string name="four_styles_button">Four Styles Button</string>
+    <string name="various_colors_button">Various Color Button</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="radio_button">Radio Button</string>
+    <string name="switch_button">Switch</string>
+
+    <string name="title_default">Default:</string>
+    <string name="title_theme">Theme:</string>
+    <string name="title_red">Red:</string>
+    <string name="title_green">Green:</string>
+    <string name="title_blue">Blue:</string>
+    <string name="title_purple">Purple:</string>
+</resources>
